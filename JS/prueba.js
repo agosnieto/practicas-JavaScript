@@ -7,8 +7,8 @@ class Demografia{
     }
 }
 
-let demografiaA = {id:1,pais: "Alemania", habitantes: 35509, moneda:"euro"};
-let demografiaB = {id:2,pais: "Sudafrica", habitantes: 480987, moneda:"rand"};
+let demografiaA = {id:1, nombre: "Alemania", habitantes: 35509, moneda:"euro"};
+let demografiaB = {id:2, nombre: "Sudafrica", habitantes: 480987, moneda:"rand"};
 let demografiaC = new Demografia (3,"Argentina", 480500, "peso argentino")
 let demografiaD = new Demografia(4,"Brasil", 243567,"real")
 let demografiaE = new Demografia(5,"Rusia", 6743875, "rublo")
